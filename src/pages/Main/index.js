@@ -81,7 +81,7 @@ export default class Main extends Component {
         <Form onSubmit={this.handleSubmit} error={error}>
           <input
             type="text"
-            placeholder="Adicionar repositório"
+            placeholder="Adicionar repositório, ex: rocketseat/unform"
             value={newRepo}
             onChange={this.handleInputChange}
           />
